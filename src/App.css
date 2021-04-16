@@ -1,0 +1,59 @@
+.App h2 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /*border: 1px solid black;*/
+}
+
+.form input {
+  font-size: 30px;
+}
+
+.form button {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list li {
+  margin: 5px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ff6f47;
+  padding-left: 10px;
+}
+
+.list ul {
+  min-width: 20%;
+  list-style: none;
+}
+
+button {
+  color: white;
+  background: #ff6f47;
+  border: none;
+  padding: 1rem;
+  font-size: 15px;
+  outline: none;
+  height: 100%;
+  cursor: pointer;
+}
